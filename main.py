@@ -7,4 +7,4 @@ app = create_app(ProdConfig)
 CORS(app)
 
 if __name__ == "__main__":
-    app.run(port=5012, debug=True)
+    app.run(port=5012)
