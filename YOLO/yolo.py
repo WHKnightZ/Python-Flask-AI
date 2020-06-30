@@ -9,7 +9,7 @@ def init_yolo():
         classes = [line.strip() for line in f.readlines()]
     layer_names = net.getLayerNames()
     output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
-    colors = np.random.uniform(0, 170, size=(len(classes), 3))
+    colors = np.random.uniform(0, 160, size=(len(classes), 3))
     return net, classes, output_layers, colors
 
 
