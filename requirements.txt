@@ -1,5 +1,5 @@
 Flask==1.1.2
 flask-cors
 numpy==1.18.5
-opencv-python-headless==3.4.2.16
+opencv-python-headless==3.4.7.28
 uwsgi
